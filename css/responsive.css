@@ -1,0 +1,36 @@
+/* Soluzione qui */
+@media screen and (min-width: 768px) {
+
+#topbar { 
+    display: flex;
+    align-items: left;
+    justify-content: left;}
+
+.recipe-origin{
+    display: contents;}
+
+.recipe-name{ 
+    font-size: 1.8rem;
+}
+
+.quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.social-networks button {
+    flex-basis: 20%;
+}
+
+.ads{
+    display: contents;
+}
+
+.presentation img {
+    display: inline;
+    float: left;
+    position: relative;
+    margin-right: 1rem;
+}
+}
